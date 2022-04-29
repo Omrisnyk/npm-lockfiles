@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        patched: '2022-04-29T19:22:27.129Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2022-04-29T19:22:27.129Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2022-04-29T19:22:27.129Z'
+  'npm:minimatch:20160620':
+    - tap > nyc > glob > minimatch:
+        patched: '2022-04-29T19:22:27.129Z'
+    - tap > nyc > rimraf > glob > minimatch:
+        patched: '2022-04-29T19:22:27.129Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch:
+        patched: '2022-04-29T19:22:27.129Z'
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2022-04-29T19:22:27.129Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch:
+        patched: '2022-04-29T19:22:27.129Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2022-04-29T19:22:27.129Z'
